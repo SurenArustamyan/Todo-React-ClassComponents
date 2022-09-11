@@ -1,0 +1,31 @@
+.container{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border: 2px solid black; */
+}
+
+.input{
+    width: 80%;
+    height: 40%;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.add{
+    width: 15%;
+    height: 40%;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
